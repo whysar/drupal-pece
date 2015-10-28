@@ -1,10 +1,8 @@
 
-var dns = require('dns');
+var dns = require('dns-sync');
 var os = require('os');
 
 /**
  * Retrive IP address.
  */
-module.exports = function ip(callback) {
-  dns.lookup(os.hostname(), callback);
-};
+module.exports = dns.lookup(os.hostname());
