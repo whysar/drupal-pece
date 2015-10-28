@@ -8,10 +8,7 @@ var webdriver;
 
 gulp.task('webdriver:start', function (done) {
   // This task's content must never run inside a VM environment.
-  if (environment.isVM) {
-    gutil.log(color.yellow('Exited \'' + color.cyan('webdriver:start') + "' due to wrong environment (VM)"));
-    return done();
-  }
+  if (environment.isVM) return environment.logWrongEnvironmentExit(this) & done();
 
   var tryAgain = null;
   var fuser;
