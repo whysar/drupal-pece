@@ -1,12 +1,17 @@
 
 var gulp = require('gulp');
+var gutil = require('gulp-util');
+var color = require('chalk');
 var spawn = require('child_process').spawn;
 var webdriverPath = process.cwd() + '/node_modules/.bin/webdriver-manager';
 var webdriver;
 
-gulp.task('webdriver:start', ['context:setup'], function (done) {
+gulp.task('webdriver:start', function (done) {
   // This task's content must never run inside a VM environment.
-  if (process.isVM) return done();
+  if (environment.isVM) {
+    gutil.log(color.yellow('Exited \'' + color.cyan('webdriver:start') + "' due to wrong environment (VM)"));
+    return done();
+  }
 
   var tryAgain = null;
   var fuser;
