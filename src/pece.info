@@ -76,6 +76,8 @@ dependencies[] = pece_projects
 dependencies[] = pece_design_logic
 dependencies[] = pece_substantive_logic
 dependencies[] = pece_repository
+dependencies[] = pece_notifications
+dependencies[] = pece_notifications_user
 
 ; UI & Front-end
 dependencies[] = breakpoints
@@ -144,6 +146,7 @@ dependencies[] = tvi
 dependencies[] = coffee
 dependencies[] = better_exposed_filters
 dependencies[] = views_autocomplete_filters
+dependencies[] = smtp
 
 ; Development - contrib
 env_dependencies[development][] = devel

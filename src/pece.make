@@ -394,6 +394,10 @@ projects[taxonomy_access_fix][version] = 2.2
 projects[pdf_reader][subdir] = contrib
 projects[pdf_reader][version] = 1.0-rc6
 
+; SMTP Mail
+projects[smtp][subdir] = contrib
+projects[smtp][version] = 1.3
+
 ; =====================
 ; Development Modules
 ; =====================
