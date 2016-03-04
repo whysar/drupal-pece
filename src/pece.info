@@ -147,6 +147,8 @@ dependencies[] = coffee
 dependencies[] = better_exposed_filters
 dependencies[] = views_autocomplete_filters
 dependencies[] = smtp
+dependencies[] = fpa
+dependencies[] = filter_perms
 
 ; Development - contrib
 env_dependencies[development][] = devel
