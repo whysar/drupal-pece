@@ -25,7 +25,10 @@ function pece_ethnographic_file_defaultconfig_user_default_permissions() {
   $permissions['create pece_ethnographic_file content'] = array(
     'name' => 'create pece_ethnographic_file content',
     'roles' => array(
-      'authenticated user' => 'authenticated user',
+      'Contributor' => 'Contributor',
+      'Researcher' => 'Researcher',
+      'administrator' => 'administrator',
+      'editor' => 'editor',
     ),
     'module' => 'node',
   );
@@ -33,7 +36,9 @@ function pece_ethnographic_file_defaultconfig_user_default_permissions() {
   // Exported permission: 'delete any pece_ethnographic_file content'.
   $permissions['delete any pece_ethnographic_file content'] = array(
     'name' => 'delete any pece_ethnographic_file content',
-    'roles' => array(),
+    'roles' => array(
+      'administrator' => 'administrator',
+    ),
     'module' => 'node',
   );
 
@@ -41,7 +46,10 @@ function pece_ethnographic_file_defaultconfig_user_default_permissions() {
   $permissions['delete own pece_ethnographic_file content'] = array(
     'name' => 'delete own pece_ethnographic_file content',
     'roles' => array(
-      'authenticated user' => 'authenticated user',
+      'Contributor' => 'Contributor',
+      'Researcher' => 'Researcher',
+      'administrator' => 'administrator',
+      'editor' => 'editor',
     ),
     'module' => 'node',
   );
@@ -50,7 +58,7 @@ function pece_ethnographic_file_defaultconfig_user_default_permissions() {
   $permissions['edit any pece_ethnographic_file content'] = array(
     'name' => 'edit any pece_ethnographic_file content',
     'roles' => array(
-      'authenticated user' => 'authenticated user',
+      'administrator' => 'administrator',
     ),
     'module' => 'node',
   );
@@ -59,9 +67,19 @@ function pece_ethnographic_file_defaultconfig_user_default_permissions() {
   $permissions['edit own pece_ethnographic_file content'] = array(
     'name' => 'edit own pece_ethnographic_file content',
     'roles' => array(
-      'authenticated user' => 'authenticated user',
+      'Contributor' => 'Contributor',
+      'Researcher' => 'Researcher',
+      'administrator' => 'administrator',
+      'editor' => 'editor',
     ),
     'module' => 'node',
+  );
+
+  // Exported permission: 'set pece_ethnographic_file published on date'.
+  $permissions['set pece_ethnographic_file published on date'] = array(
+    'name' => 'set pece_ethnographic_file published on date',
+    'roles' => array(),
+    'module' => 'publication_date',
   );
 
   return $permissions;

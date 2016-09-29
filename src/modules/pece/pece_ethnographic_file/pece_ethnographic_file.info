@@ -1,5 +1,5 @@
 name = PECE Ethnographic File
-description = Provide a content type to create Ethnografic Files.
+description = Provide a content type to create Pece Essay (Ethnografic Files).
 core = 7.x
 package = PECE
 version = 7.x-1.0

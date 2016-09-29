@@ -25,7 +25,7 @@ function pece_ethnographic_file_ctools_plugin_api($module = NULL, $api = NULL) {
 function pece_ethnographic_file_node_info() {
   $items = array(
     'pece_ethnographic_file' => array(
-      'name' => t('Ethnographic File'),
+      'name' => t('PECE Essay'),
       'base' => 'node_content',
       'description' => '',
       'has_title' => '1',
