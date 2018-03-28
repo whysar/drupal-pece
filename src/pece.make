@@ -154,7 +154,7 @@ projects[key][version] = 3.4
 projects[encrypt][subdir] = contrib
 projects[encrypt][version] = 2.3
 
-; Real AES PHP encryption 
+; Real AES PHP encryption
 projects[real_aes][subdir] = contrib
 projects[real_aes][version] = 1.2
 
@@ -510,6 +510,10 @@ projects[node_expire][version] = 2.2
 ; Overrides panopoly's libraries.
 projects[date][subdir] = contrib
 projects[date][version] = 2.10
+
+; ARK - Archival Resource Key Identifier Name Mapping
+projects[ark][subdir] = contrib
+projects[ark][version] = 1.0-alpha1
 
 ; =====================
 ; Development Modules
