@@ -181,3 +181,11 @@ function pece_update_7101() {
 function pece_update_7102() {
   module_enable(array('subpathauto'));
 }
+
+
+/**
+ * Enable Future Anterior artifact.
+ */
+function pece_update_7103() {
+  module_enable(array('pece_artifacts_future_anterior'));
+}
