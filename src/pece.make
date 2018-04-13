@@ -354,6 +354,9 @@ projects[field_group][subdir] = contrib
 projects[languagefield[version] = 1.7
 projects[languagefield][subdir] = contrib
 
+projects[iframe][version] = 1.8
+projects[iframe][subdir] = contrib
+
 ; =====================
 ; Search
 ; =====================
