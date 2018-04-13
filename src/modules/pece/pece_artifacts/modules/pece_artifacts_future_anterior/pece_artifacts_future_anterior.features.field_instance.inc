@@ -29,7 +29,7 @@ function pece_artifacts_future_anterior_field_default_field_instances() {
         'module' => 'taxonomy',
         'settings' => array(),
         'type' => 'taxonomy_term_reference_link',
-        'weight' => 9,
+        'weight' => 7,
       ),
       'featured' => array(
         'label' => 'above',
@@ -116,7 +116,7 @@ function pece_artifacts_future_anterior_field_default_field_instances() {
           'link' => 1,
         ),
         'type' => 'entityreference_label',
-        'weight' => 2,
+        'weight' => 1,
       ),
       'featured' => array(
         'label' => 'above',
@@ -211,7 +211,7 @@ function pece_artifacts_future_anterior_field_default_field_instances() {
         'module' => 'text',
         'settings' => array(),
         'type' => 'text_default',
-        'weight' => 11,
+        'weight' => 9,
       ),
       'featured' => array(
         'label' => 'above',
@@ -303,7 +303,7 @@ function pece_artifacts_future_anterior_field_default_field_instances() {
           'link' => 1,
         ),
         'type' => 'entityreference_label',
-        'weight' => 5,
+        'weight' => 3,
       ),
       'featured' => array(
         'label' => 'above',
@@ -388,7 +388,7 @@ function pece_artifacts_future_anterior_field_default_field_instances() {
         'module' => 'iframe',
         'settings' => array(),
         'type' => 'iframe_formatter_default',
-        'weight' => 17,
+        'weight' => 2,
       ),
       'featured' => array(
         'label' => 'above',
@@ -483,7 +483,7 @@ function pece_artifacts_future_anterior_field_default_field_instances() {
           ),
         ),
         'type' => 'language_default',
-        'weight' => 16,
+        'weight' => 14,
       ),
       'featured' => array(
         'label' => 'above',
@@ -568,7 +568,7 @@ function pece_artifacts_future_anterior_field_default_field_instances() {
         'module' => 'creative_commons',
         'settings' => array(),
         'type' => 'creative_commons_small_image',
-        'weight' => 6,
+        'weight' => 4,
       ),
       'featured' => array(
         'label' => 'above',
@@ -649,7 +649,7 @@ function pece_artifacts_future_anterior_field_default_field_instances() {
         'module' => 'location_cck',
         'settings' => array(),
         'type' => 'location_default',
-        'weight' => 10,
+        'weight' => 8,
       ),
       'featured' => array(
         'label' => 'above',
@@ -730,7 +730,7 @@ function pece_artifacts_future_anterior_field_default_field_instances() {
         'module' => 'text',
         'settings' => array(),
         'type' => 'text_default',
-        'weight' => 15,
+        'weight' => 13,
       ),
       'featured' => array(
         'label' => 'above',
@@ -819,7 +819,7 @@ function pece_artifacts_future_anterior_field_default_field_instances() {
         'module' => 'taxonomy',
         'settings' => array(),
         'type' => 'taxonomy_term_reference_link',
-        'weight' => 8,
+        'weight' => 6,
       ),
       'featured' => array(
         'label' => 'above',
@@ -903,7 +903,7 @@ function pece_artifacts_future_anterior_field_default_field_instances() {
         'module' => 'text',
         'settings' => array(),
         'type' => 'text_default',
-        'weight' => 7,
+        'weight' => 5,
       ),
       'featured' => array(
         'label' => 'above',
@@ -995,7 +995,7 @@ function pece_artifacts_future_anterior_field_default_field_instances() {
         'module' => 'list',
         'settings' => array(),
         'type' => 'list_default',
-        'weight' => 13,
+        'weight' => 11,
       ),
       'featured' => array(
         'label' => 'above',
@@ -1082,7 +1082,7 @@ function pece_artifacts_future_anterior_field_default_field_instances() {
         'module' => 'list',
         'settings' => array(),
         'type' => 'list_default',
-        'weight' => 12,
+        'weight' => 10,
       ),
       'featured' => array(
         'label' => 'above',
@@ -1167,7 +1167,7 @@ function pece_artifacts_future_anterior_field_default_field_instances() {
         'module' => 'list',
         'settings' => array(),
         'type' => 'list_default',
-        'weight' => 14,
+        'weight' => 12,
       ),
       'featured' => array(
         'label' => 'above',
