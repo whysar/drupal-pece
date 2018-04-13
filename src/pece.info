@@ -61,6 +61,7 @@ dependencies[] = pece_artifacts
 dependencies[] = pece_artifacts_audio
 dependencies[] = pece_artifacts_bundle
 dependencies[] = pece_artifacts_fieldnote
+dependencies[] = pece_artifacts_future_anterior
 dependencies[] = pece_artifacts_image
 dependencies[] = pece_artifacts_pdf
 dependencies[] = pece_artifacts_text
