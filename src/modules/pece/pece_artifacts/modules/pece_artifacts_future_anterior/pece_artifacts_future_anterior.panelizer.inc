@@ -55,7 +55,7 @@ function pece_artifacts_future_anterior_panelizer_defaults() {
   $pane->access = array();
   $pane->configuration = array(
     'label' => 'title',
-    'formatter' => 'iframe_formatter_default',
+    'formatter' => 'iframe_formatter_asurlwithuri',
     'delta_limit' => 0,
     'delta_offset' => '0',
     'delta_reversed' => FALSE,
