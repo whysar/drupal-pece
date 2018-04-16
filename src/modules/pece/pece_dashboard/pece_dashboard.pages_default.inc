@@ -99,6 +99,8 @@ function pece_dashboard_default_page_manager_pages() {
   $display->cache = array();
   $display->title = '';
   $display->uuid = 'eb338d0e-e9ec-44fb-b82f-819311de351b';
+  $display->storage_type = 'page_manager';
+  $display->storage_id = 'page_dashboard__panel';
   $display->content = array();
   $display->panels = array();
   $pane = new stdClass();
