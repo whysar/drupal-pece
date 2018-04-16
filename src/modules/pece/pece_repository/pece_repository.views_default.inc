@@ -346,6 +346,7 @@ function pece_repository_views_default_views() {
   $handler->display->display_options['filters']['type']['value'] = array(
     'pece_artifact_audio' => 'pece_artifact_audio',
     'pece_artifact_bundle' => 'pece_artifact_bundle',
+    'pece_artifact_future_anterior' => 'pece_artifact_future_anterior',
     'pece_artifact_image' => 'pece_artifact_image',
     'pece_artifact_pdf' => 'pece_artifact_pdf',
     'pece_artifact_text' => 'pece_artifact_text',
@@ -389,6 +390,7 @@ function pece_repository_views_default_views() {
   $handler->display->display_options['filters']['type_1']['value'] = array(
     'pece_artifact_audio' => 'pece_artifact_audio',
     'pece_artifact_bundle' => 'pece_artifact_bundle',
+    'pece_artifact_future_anterior' => 'pece_artifact_future_anterior',
     'pece_artifact_image' => 'pece_artifact_image',
     'pece_artifact_pdf' => 'pece_artifact_pdf',
     'pece_artifact_text' => 'pece_artifact_text',
@@ -511,6 +513,7 @@ function pece_repository_views_default_views() {
   $handler->display->display_options['filters']['type']['value'] = array(
     'pece_artifact_audio' => 'pece_artifact_audio',
     'pece_artifact_bundle' => 'pece_artifact_bundle',
+    'pece_artifact_future_anterior' => 'pece_artifact_future_anterior',
     'pece_artifact_image' => 'pece_artifact_image',
     'pece_artifact_pdf' => 'pece_artifact_pdf',
     'pece_artifact_text' => 'pece_artifact_text',
