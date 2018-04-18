@@ -184,8 +184,15 @@ function pece_update_7102() {
 
 
 /**
- * Enable Future Anterior artifact.
+ * Enable Real Name module.
  */
 function pece_update_7103() {
+  module_enable(array('realname'));
+}
+
+/**
+ * Enable Future Anterior artifact.
+ */
+function pece_update_7104() {
   module_enable(array('pece_artifacts_future_anterior'));
 }
