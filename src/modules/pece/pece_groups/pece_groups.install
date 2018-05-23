@@ -42,6 +42,12 @@ function pece_groups_modules_enabled($modules) {
       'create pece_memo content',
       'delete own pece_memo content',
       'update own pece_memo content',
+      'create pece_essay content',
+      'delete own pece_essay content',
+      'update own pece_essay content',
+      'create pece_photo_essay content',
+      'delete own pece_photo_essay content',
+      'update own pece_photo_essay content',
     );
 
     $roles = array(
@@ -58,9 +64,36 @@ function pece_groups_modules_enabled($modules) {
 }
 
 /**
+ * Add groups default permissions for PECE Essay and Photo Essay contents.
+ */
+function pece_groups_update_7001(&$sandbox) {
+  $roles_members = og_roles('node', 'pece_group');
+
+  $permissions = array(
+    'create pece_essay content',
+    'delete own pece_essay content',
+    'update own pece_essay content',
+    'create pece_photo_essay content',
+    'delete own pece_photo_essay content',
+    'update own pece_photo_essay content',
+  );
+
+  $roles = array(
+    'administrator member',
+    'Researcher',
+    'Contributor'
+  );
+
+  foreach ($roles as $role) {
+    $rid_role = array_search($role, $roles_members);
+    og_role_grant_permissions($rid_role, $permissions);
+  }
+}
+
+/**
  * Rebuild Groups default permissions for administrator user role.
  */
-function pece_groups_update_7001() {
+function pece_groups_update_7002() {
   module_load_include('inc', 'pece', 'pece.functions');
   pece_defaultconfig_component_rebuild_by_name('user_default_permissions', 'pece_groups');
 }
