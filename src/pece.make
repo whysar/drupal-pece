@@ -365,7 +365,7 @@ projects[adminimal_theme][subdir] = contrib
 
 ; PECE Base Theme
 ; projects[scholarly_lite][type] = theme
-; projects[scholarly_lite][version] = 1.0
+; projects[scholarly_lite][version] = 1.1
 ; projects[scholarly_lite][subdir] = contrib
 
 ; =====================
