@@ -343,6 +343,10 @@ projects[languagefield][subdir] = contrib
 projects[nodeaccess_userreference][subdir] = contrib
 projects[nodeaccess_userreference][version] = 3.10
 
+; Color field
+projects[color_field][subdir] = contrib
+projects[color_field][version] = 1.8
+
 ; =====================
 ; Search
 ; =====================
