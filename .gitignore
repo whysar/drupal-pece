@@ -1,6 +1,8 @@
 # Sensitive information #
 #########################
 # Ignore configuration files that may contain sensitive information.
+.env
+
 
 # Kraftwagen specific #
 #######################
@@ -32,6 +34,8 @@
 # Logs and databases #
 ######################
 database/local/*
+docker/database/data/
+
 
 # Compiled css files #
 ######################
